@@ -7,12 +7,34 @@
       "root": "./src/partials",
       "locals": {
         "top": [],
-        "body": [],
+        "body": [
+          {
+            "type": "text",
+            "value": "Leadin. Something to draw the reader in. Graphics is the only visuals and words desk at the Spectator."
+          },
+          {
+            "type": "text",
+            "value": "Nutgraf. What is the meat of the story? Why does this matter?"
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": ""
+            }
+          },
+          {
+            "type": "text",
+            "value": "<i>Graphics reporter Eleanor Lin can be contacted at </i><a href=\"mailto:eleanor.lin@columbiaspectator.com\"><i>eleanor.lin@columbiaspectator.com</i></a><i>.</i><i> </i>"
+          }
+        ],
+        "headline": "Sexy headline",
+        "date": "November 18, 2021",
+        "byline": "By Eleanor Lin",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
         "USE_COVER_HED": false,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/1EXP_JJjgVld4G8EWjFVxq5cHKsr1C9ZLqSE849wLKQc/edit"
       }
     }
   }
