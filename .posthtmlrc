@@ -14,15 +14,19 @@
           },
           {
             "type": "text",
-            "value": "From complaints about the <a href=\"https://www.facebook.com/columbiaconfessionz/posts/616672196348398\">noisiness</a> of Butler Library, to hope and despair in intimate <a href=\"https://www.facebook.com/columbiaconfessionz/posts/578786306803654\">relationships</a>, the anonymous posts on <a href=\"https://www.facebook.com/columbiaconfessionz\">Columbia Confessions</a> track closely with the pulse of campus life. Yet just as noteworthy as the posts themselves are the responses of Confessions’ followers, from the simple “thumbs up” to direct offers of <a href=\"https://www.facebook.com/columbiaconfessionz/posts/365042064844747\">academic</a> and socioemotional support between posters and commenters. Even as many students’ ability to find community on campus was disrupted by <a href=\"https://www.columbiaspectator.com/news/2021/10/05/post-virtual-learning-in-a-covid-19-world-students-thoughts-on-the-return-to-campus/\">18 months of virtual learning</a> during the ongoing COVID-19 pandemic, Columbia Confessions remained active."
+            "value": "From complaints about the <a href=\"https://www.facebook.com/columbiaconfessionz/posts/616672196348398\">noise levels in</a> Butler Library to hope and despair in intimate <a href=\"https://www.facebook.com/columbiaconfessionz/posts/578786306803654\">relationships</a>, the anonymous posts on <a href=\"https://www.facebook.com/columbiaconfessionz\">Columbia Confessions</a> closely track the pulse of campus life. Yet, just as noteworthy as the posts themselves are the responses of Confessions’ followers, ranging from  a simple likesthumbs-up to direct offers of <a href=\"https://www.facebook.com/columbiaconfessionz/posts/365042064844747\">academic</a> and socioemotional support. between posters and commenters. Even as life and many students’ ability to find community on campus was disrupted by <a href=\"https://www.columbiaspectator.com/news/2021/10/05/post-virtual-learning-in-a-covid-19-world-students-thoughts-on-the-return-to-campus/\">18 months of virtual learning</a> during the ongoing COVID-19 pandemic, Columbia Confessions remained active."
           },
           {
             "type": "text",
-            "value": "Beyond providing a platform for Columbia students to relieve stress and anxiety in the short term, how does Confessions function as a community of its own? How do students use Confessions to find community beyond virtual spaces? And how are topics of mental health, especially loneliness and isolation, engaged with by the page’s 6,000 followers?"
+            "value": "Beyond providing a platform for Columbia students to relieve stress and anxiety in the short term, how does Confessions function as a community of its own? How do students use Confessions to find community beyond virtual spaces? And how are topics of mental health, especially loneliness and isolation, engaged with by the page’s 6,539 followers?"
           },
           {
             "type": "text",
-            "value": "In order to answer these questions, Spectator analyzed the almost 2,000 confessions made since March 2021 and interviewed some of the most active students on Confessions. Here is their story of finding community."
+            "value": "In order to answer these questions, Spectator analyzed around 2,000 confessions made since mid-March of 2021 and interviewed some of the most active students on Confessions. Here is their story of finding community."
+          },
+          {
+            "type": "text",
+            "value": "~~~~~~"
           },
           {
             "type": "text",
@@ -34,65 +38,49 @@
           },
           {
             "type": "text",
-            "value": "What distinguishes Columbia Confessions from its predecessors is its broader subject matter and audience. While University Class Confessions was formed to center the identities and experiences of FGLI students, Columbia Confessions was founded as an all-purpose campus forum. Unlike Columbia Compliments, which focused on amplifying positive messages, Columbia Confessions often serves as a space for students to acknowledge, express, and find support when faced with negative emotions and experiences, such as struggles with mental health. And while its predecessors seem to have gone dormant, for now, Confessions can be counted on to post almost every day."
-          },
-          {
-            "type": "text",
-            "value": "[Sample post: <a href=\"https://www.facebook.com/columbiaconfessionz/posts/592209672127984\">https://www.facebook.com/columbiaconfessionz/posts/592209672127984</a>]"
+            "value": "What distinguishes Columbia Confessions from its predecessors is its broader subject matter and audience. While University Class Confessions was centered on the identities and experiences of FGLI students, Columbia Confessions was founded as an all-purpose campus forum. Unlike Columbia Compliments, which focused on amplifying positive messages, Columbia Confessions often serves as a space for students to acknowledge, express, and find support when faced with negative emotions and experiences, such as struggles with mental health. And while its predecessors seem to have gone dormant, for now, Confessions can be counted on to post almost every day."
           },
           {
             "type": "graphic",
             "value": {
-              "asset": ""
+              "asset": "post-1.html"
             }
           },
           {
             "type": "text",
-            "value": "The result is a continuous feed of students’ thoughts, hopes, and anxieties in all walks of life at the university. In order to track the patterns of the Confessions community over the past year of pandemic-related social isolation and upheaval, we scraped Confessions posts since the beginning of the fall 2019 semester directly from Facebook. Each confession was given a sentiment score between -1 (most negative) and 1 (most positive) using the <a href=\"https://github.com/cjhutto/vaderSentiment\">vaderSentiment</a> open source library. We limited our analysis to begin in March 2021, splitting posts into negative, neutral, and positive sentiment classes based on their scores. We then read each negative-sentiment post, manually tagging the ones related to loneliness, isolation, or a general need for community support. We compared the engagement on these posts (comments, shares, and reactions) to that of neutral and positive sentiment posts."
+            "value": "The result is a continuous feed of students’ thoughts, hopes, and anxieties in all walks of life at the University. In order to track the patterns of the Confessions community over the past year of pandemic-related social isolation and upheaval, we scraped Confessions posts from between the beginning of the fall 2019 semester and mid-November 2021 directly from Facebook. Each confession was given a sentiment score between -1 (most negative) and 1 (most positive) using the <a href=\"https://github.com/cjhutto/vaderSentiment\">vaderSentiment</a> open source library. We limited our analysis to begin in mid-March of 2021, splitting posts into negative, neutral, and positive-sentiment classes based on their scores. We then read each negative-sentiment post, manually tagging the ones related to loneliness, isolation, or a general need for community support. We compared the engagement on these posts, as measured by comments, shares, and reactions, to engagement on neutral and positive-sentiment posts."
           },
           {
             "type": "text",
-            "value": "A few results stood out. As might be expected, confessions which we had tagged as loneliness/isolation-related had a more negative sentiment score on average than that of a typical confession, or even a typical negative sentiment confessions. In addition, the median sentiment score was 0.10 for all confessions since March 2021, -0.64 for all negative-sentiment confessions, and -0.79 for confessions about loneliness or isolation."
+            "value": "A few results stood out. As might be expected, confessions which we had tagged as loneliness/isolation-related had more negative sentiment scores on average than those of  typical confessions, or even typical negative sentiment confessions. In addition, the median sentiment score was 0.10 for all confessions since mid-March of 2021, -0.64 for all negative-sentiment confessions, and -0.79 for confessions about loneliness or isolation."
           },
           {
             "type": "text",
             "value": "Confessions’ audience also seemed to react more strongly to such posts, using the “care” react much more frequently on average for loneliness/isolation-related posts, and the “haha” react much less frequently."
           },
           {
-            "type": "text",
-            "value": "[Care react graphic]"
-          },
-          {
             "type": "graphic",
             "value": {
-              "asset": ""
+              "asset": "cares.html"
             }
           },
           {
             "type": "text",
-            "value": "Those numbers also seem to translate into genuine relationships. After identifying top commenters in the Confessions community from our scraped data, we interviewed several who told us that their engagement with anonymous posters through Confessions has led to longer-lasting, in-person connections."
+            "value": "Those numbers also seem to translate into genuine relationships. After identifying top commenters in the Confessions community from our scraped data, we interviewed several who told us that their engagement with anonymous posters through Confessions has led to longer-lasting in-person connections."
           },
           {
             "type": "text",
-            "value": "When Zoe Elison, SEAS ‘23, noticed that many students were having trouble forming meaningful connections during the pandemic, she decided to create Facebook groups to make people feel more supported. Most recently, she has created <a href=\"https://www.facebook.com/groups/277986567320729/\">neurodivergent @ columbia</a>, a group for neurodivergent people “<a href=\"https://www.facebook.com/columbiaconfessionz/posts/609920033690281\">to connect & support each other</a>.” Elison sees Confessions as a space where people “can branch off into more niche communities,” like those she has been trying to cultivate. Elison also notes how the anonymity provided by Confessions can make it easier for students to voice mental health concerns, especially in a society that stigmatizes seeking support for mental health. “I will comment on posts and be like, ‘Hey, feel free to reach out to me,’ and people will be like, ‘Oh, I was the one who made that post. And I didn't want my friends to know what I was going through.’”"
-          },
-          {
-            "type": "text",
-            "value": "[8668. John J Gonzaga? You are carrying this community on your back. I'm always seeing ur thoughtful responses to ppl who are struggling. u a goat!! Thank u!!"
-          },
-          {
-            "type": "text",
-            "value": "<a href=\"https://www.facebook.com/columbiaconfessionz/posts/415644713117815\">https://www.facebook.com/columbiaconfessionz/posts/415644713117815</a>]"
+            "value": "When Zoe Elison, SEAS ’23, noticed that many students were having trouble forming meaningful connections during the pandemic, she decided to create Facebook groups to make people feel more supported. Most recently, she has created <a href=\"https://www.facebook.com/groups/277986567320729/\">neurodivergent @ columbia</a>, a group for neurodivergent people “<a href=\"https://www.facebook.com/columbiaconfessionz/posts/609920033690281\">to connect & support each other</a>.” Elison sees Confessions as a space where people “can branch off into more niche communities,” like those she has been trying to cultivate. Elison also notes how the anonymity provided by Confessions can make it easier for students to voice mental health concerns, especially in a society that stigmatizes seeking support for mental health. “I will comment on posts and be like, ‘Hey, feel free to reach out to me,’ and people will be like, ‘Oh, I was the one who made that post. And I didn’t want my friends to know what I was going through.’”"
           },
           {
             "type": "graphic",
             "value": {
-              "asset": ""
+              "asset": "post-2.html"
             }
           },
           {
             "type": "text",
-            "value": "John Gonzaga, GS ’20, also became more involved with online community-building during the pandemic, taking initiative in organizing social events over Zoom and in person with people he met through Confessions. He also found the page to be a source of comfort while he was working in the highly stressful environment of a hospital during the height of the pandemic: “Even if I wasn't saying anything, seeing other people and their outpouring of support–that's one of the little things that shook me up and made me feel better, made me feel less lousy, like people wanted to take care of each other.”"
+            "value": "John Gonzaga, GS ’20, also became more involved with online community-building during the pandemic, taking initiative in organizing social events over Zoom and in-person with people he met through Confessions. He also found the page to be a source of comfort while he was working in the highly stressful environment of a hospital during the height of the pandemic: “Even if I wasn’t saying anything, seeing other people and their outpouring of support—that’s one of the little things that shook me up and made me feel better, made me feel less lousy, like people wanted to take care of each other.”"
           },
           {
             "type": "text",
@@ -100,15 +88,15 @@
           },
           {
             "type": "text",
-            "value": "Like Gonzaga, Alison Kitchkommie, GS ‘23, another frequent commenter, has also had interactions on Confessions that led to more significant connections, and like Elison, she has tried using Confessions as a place to gather momentum around students’ shared identities and struggles, such as attempting to organize <a href=\"https://www.facebook.com/columbiaconfessionz/posts/596726315009653\">self-advocacy for students with disabilities</a>. Although she does not feel burdened by reading negative posts, even reaching out to isolated individuals, Kitchkommie acknowledges that for others, reading such content might “ just amplif[y] the negative feelings that you already have.” She also sees the patterns of posting on Confessions as an indicator of systemic issues within the University’s mental health infrastructure: “When you seem to have all of these separate instances of people saying, ‘I am not supported on campus,’ ‘I am struggling,’ or ‘I'm trying to get into [care for] mental health, and they can't see me for X number of weeks’ . . . I think it is a reflection of how well people are being supported generally on campus.”"
+            "value": "Like Gonzaga, Alison Kitchkommie, GS ‘23, another frequent commenter, has also had interactions on Confessions that led to more significant connections, and like Elison, she has tried using Confessions as a place to gather momentum around students’ shared identities and struggles, such as attempting to organize <a href=\"https://www.facebook.com/columbiaconfessionz/posts/596726315009653\">self-advocacy for students with disabilities</a>. Although she does not feel burdened by reading negative posts, even reaching out to isolated individuals, Kitchkommie acknowledges that for others, reading such content might “just amplif[y] the negative feelings that you already have.” She also sees the patterns of posting on Confessions as an indicator of systemic issues within the University’s mental health infrastructure: “When you seem to have all of these separate instances of people saying, ‘I am not supported on campus,’ ‘I am struggling,’ or ‘I’m trying to get into [care for] mental health, and they can’t see me for X number of weeks’ ... I think it is a reflection of how well people are being supported generally on campus.”"
           },
           {
             "type": "text",
-            "value": "Stan Liao, SEAS ‘21, who co-founded Confessions with friends in 2019, says it was never their intention for Confessions to replace formal systems of mental health support on campus: “I really hope we haven’t supplanted CPS . . . I hope we [act as] an accessory and even help formal mental health systems, because they're probably good.” Originally, Confessions was simply meant to be “a place where people [could] scream their inane, or deeply personal, or funny thoughts into the void.” However, Liao and his fellow admins took care not to let that void be filled with just any content. For instance, in deciding how to treat posts related to suicide and other struggles with mental health, they consulted a psychology professor. (Currently, Confessions prefaces confessions containing references to suicide and other forms of self-harm with trigger warnings.) While he acknowledged concerns about the possible negative effect on some students of being exposed to such content, Liao also echoed a sentiment shared by the Confessions commenters we interviewed: “Just knowing that other people are going through the same thing helps.” In addition, like Elison, he noted the potential for anonymous confessions to act as a first step for those seeking help for mental health struggles."
+            "value": "Stan Liao, SEAS ‘21, who co-founded Confessions with friends in 2019, says it was never their intention for Confessions to replace formal systems of mental health support on campus: “I really hope we haven’t supplanted CPS . . . I hope we [act as] an accessory and even help formal mental health systems, because they're probably good.” Liao explains that Confessions was originally just meant to be “a place where people [could] scream their inane, or deeply personal, or funny thoughts into the void.” However, Liao and his fellow admins took care not to let that void be filled with just any content. For instance, in deciding how to treat posts related to suicide and other struggles with mental health, they consulted a psychology professor. Currently, Confessions prefaces confessions containing references to suicide and other forms of self-harm with trigger warnings. While he acknowledged concerns about the possible negative effect on some students of being exposed to such content, Liao also echoed a sentiment shared by the Confessions commenters we interviewed: “Just knowing that other people are going through the same thing helps.” In addition, like Elison, he noted the potential for anonymous confessions to act as a first step for those seeking help for mental health struggles."
           },
           {
             "type": "text",
-            "value": "Asked to reflect on how Confessions has developed since its founding, Liao says, “I didn't really have an intent for where it would take us. It felt like most college confessions pages end up probably similar to ours. There's a mixture of shitposting. And people do genuinely, occasionally find something valuable out of it.“"
+            "value": "Asked to reflect on how Confessions has developed since its founding, Liao says, “I didn’t really have an intent for where it would take us. It felt like most college confessions pages end up probably similar to ours. There’s a mixture of shitposting. And people do genuinely, occasionally find something valuable out of it.”"
           },
           {
             "type": "text",
@@ -123,7 +111,7 @@
             "value": "<i>Data scraped from Columbia Confessions by Newsroom Development. Follow Spectator on Twitter </i><a href=\"https://twitter.com/columbiaspec?lang=en\"><i>@ColumbiaSpec</i></a><i>.</i>"
           }
         ],
-        "headline": "Students Find Community Through Columbia Confessions",
+        "headline": "Students find community through Columbia Confessions",
         "date": "November 18, 2021",
         "byline": "By Eleanor Lin\nGraphics and data reporting by Jessica Li and Spectator Newsroom Development",
         "USE_NEWS_NAV": true,
